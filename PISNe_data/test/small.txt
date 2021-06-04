@@ -1,0 +1,3 @@
+dMcu63 = (M_in(Rcu63,T[i]) - M_fb(Mcu63[i]) - M_sf(Mcu63[i]) + M_cc(Ecu63_cc(meta),i) + M_Ia(Ycu63_Ia,qx) + M_pisne(Ecu63_pisne(meta),i) )* dt
+mcu63 = Mcu63[i]
+mcu63 += dMcu63 

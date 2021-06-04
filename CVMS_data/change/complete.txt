@@ -1,0 +1,69 @@
+def Ehe4_cvms(meta):
+    Ep_cvms = integrate.quad(lambda m: Y_cvms(m,meta,yp1,yp2)*IMF(m), 266, 1250)
+    return Ep_cvms[0]
+def Ehe4_cvms(meta):
+    E4He_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y4He1,y4He2)*IMF(m), 266, 1250)
+    return E4He_cvms[0]
+def Ehe4_cvms(meta):
+    E12C_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y12C1,y12C2)*IMF(m), 266, 1250)
+    return E12C_cvms[0]
+def Ehe4_cvms(meta):
+    E14N_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y14N1,y14N2)*IMF(m), 266, 1250)
+    return E14N_cvms[0]
+def Ehe4_cvms(meta):
+    E16O_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y16O1,y16O2)*IMF(m), 266, 1250)
+    return E16O_cvms[0]
+def Ehe4_cvms(meta):
+    E23Na_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y23Na1,y23Na2)*IMF(m), 266, 1250)
+    return E23Na_cvms[0]
+def Ehe4_cvms(meta):
+    E24Mg_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y24Mg1,y24Mg2)*IMF(m), 266, 1250)
+    return E24Mg_cvms[0]
+def Ehe4_cvms(meta):
+    E27Al_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y27Al1,y27Al2)*IMF(m), 266, 1250)
+    return E27Al_cvms[0]
+def Ehe4_cvms(meta):
+    E28Si_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y28Si1,y28Si2)*IMF(m), 266, 1250)
+    return E28Si_cvms[0]
+def Ehe4_cvms(meta):
+    E31P_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y31P1,y31P2)*IMF(m), 266, 1250)
+    return E31P_cvms[0]
+def Ehe4_cvms(meta):
+    E32S_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y32S1,y32S2)*IMF(m), 266, 1250)
+    return E32S_cvms[0]
+def Ehe4_cvms(meta):
+    E39K_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y39K1,y39K2)*IMF(m), 266, 1250)
+    return E39K_cvms[0]
+def Ehe4_cvms(meta):
+    E40Ca_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y40Ca1,y40Ca2)*IMF(m), 266, 1250)
+    return E40Ca_cvms[0]
+def Ehe4_cvms(meta):
+    E45Sc_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y45Sc1,y45Sc2)*IMF(m), 266, 1250)
+    return E45Sc_cvms[0]
+def Ehe4_cvms(meta):
+    E48Ti_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y48Ti1,y48Ti2)*IMF(m), 266, 1250)
+    return E48Ti_cvms[0]
+def Ehe4_cvms(meta):
+    E51V_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y51V1,y51V2)*IMF(m), 266, 1250)
+    return E51V_cvms[0]
+def Ehe4_cvms(meta):
+    E52Cr_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y52Cr1,y52Cr2)*IMF(m), 266, 1250)
+    return E52Cr_cvms[0]
+def Ehe4_cvms(meta):
+    E55Mn_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y55Mn1,y55Mn2)*IMF(m), 266, 1250)
+    return E55Mn_cvms[0]
+def Ehe4_cvms(meta):
+    E56Fe_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y56Fe1,y56Fe2)*IMF(m), 266, 1250)
+    return E56Fe_cvms[0]
+def Ehe4_cvms(meta):
+    E59Co_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y59Co1,y59Co2)*IMF(m), 266, 1250)
+    return E59Co_cvms[0]
+def Ehe4_cvms(meta):
+    E58Ni_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y58Ni1,y58Ni2)*IMF(m), 266, 1250)
+    return E58Ni_cvms[0]
+def Ehe4_cvms(meta):
+    E63Cu_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y63Cu1,y63Cu2)*IMF(m), 266, 1250)
+    return E63Cu_cvms[0]
+def Ehe4_cvms(meta):
+    E64Zn_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y64Zn1,y64Zn2)*IMF(m), 266, 1250)
+    return E64Zn_cvms[0]

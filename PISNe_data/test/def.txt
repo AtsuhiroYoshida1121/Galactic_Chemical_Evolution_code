@@ -1,0 +1,6 @@
+def E4He_pisne(meta):
+    E4He_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y4He1,y4He2,y4He3,y4He4,y4He5,y4He6,y4He7,y4He8,y4He9,y4He10,y4He11,y4He12,y4He13,y4He14)*IMF(m), 140, 270)
+    return E4He_pisne[0]
+
+
+

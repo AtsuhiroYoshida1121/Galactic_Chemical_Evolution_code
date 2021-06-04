@@ -1,0 +1,132 @@
+def E4He_pisne(meta):
+    E4He_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y4He1,y4He2,y4He3,y4He4,y4He5,y4He6,y4He7,y4He8,y4He9,y4He10,y4He11,y4He12,y4He13,y4He14)*IMF(m), 140, 270)
+    return E4He_pisne[0]
+
+
+
+def E12C_pisne(meta):
+    E12C_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y12C1,y12C2,y12C3,y12C4,y12C5,y12C6,y12C7,y12C8,y12C9,y12C10,y12C11,y12C12,y12C13,y12C14)*IMF(m), 140, 270)
+    return E12C_pisne[0]
+
+
+
+def E14N_pisne(meta):
+    E14N_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y14N1,y14N2,y14N3,y14N4,y14N5,y14N6,y14N7,y14N8,y14N9,y14N10,y14N11,y14N12,y14N13,y14N14)*IMF(m), 140, 270)
+    return E14N_pisne[0]
+
+
+
+def E16O_pisne(meta):
+    E16O_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y16O1,y16O2,y16O3,y16O4,y16O5,y16O6,y16O7,y16O8,y16O9,y16O10,y16O11,y16O12,y16O13,y16O14)*IMF(m), 140, 270)
+    return E16O_pisne[0]
+
+
+
+def E23Na_pisne(meta):
+    E23Na_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y23Na1,y23Na2,y23Na3,y23Na4,y23Na5,y23Na6,y23Na7,y23Na8,y23Na9,y23Na10,y23Na11,y23Na12,y23Na13,y23Na14)*IMF(m), 140, 270)
+    return E23Na_pisne[0]
+
+
+
+def E24Mg_pisne(meta):
+    E24Mg_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y24Mg1,y24Mg2,y24Mg3,y24Mg4,y24Mg5,y24Mg6,y24Mg7,y24Mg8,y24Mg9,y24Mg10,y24Mg11,y24Mg12,y24Mg13,y24Mg14)*IMF(m), 140, 270)
+    return E24Mg_pisne[0]
+
+
+
+def E27Al_pisne(meta):
+    E27Al_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y27Al1,y27Al2,y27Al3,y27Al4,y27Al5,y27Al6,y27Al7,y27Al8,y27Al9,y27Al10,y27Al11,y27Al12,y27Al13,y27Al14)*IMF(m), 140, 270)
+    return E27Al_pisne[0]
+
+
+
+def E28Si_pisne(meta):
+    E28Si_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y28Si1,y28Si2,y28Si3,y28Si4,y28Si5,y28Si6,y28Si7,y28Si8,y28Si9,y28Si10,y28Si11,y28Si12,y28Si13,y28Si14)*IMF(m), 140, 270)
+    return E28Si_pisne[0]
+
+
+
+def E31P_pisne(meta):
+    E31P_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y31P1,y31P2,y31P3,y31P4,y31P5,y31P6,y31P7,y31P8,y31P9,y31P10,y31P11,y31P12,y31P13,y31P14)*IMF(m), 140, 270)
+    return E31P_pisne[0]
+
+
+
+def E32S_pisne(meta):
+    E32S_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y32S1,y32S2,y32S3,y32S4,y32S5,y32S6,y32S7,y32S8,y32S9,y32S10,y32S11,y32S12,y32S13,y32S14)*IMF(m), 140, 270)
+    return E32S_pisne[0]
+
+
+
+def E39K_pisne(meta):
+    E39K_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y39K1,y39K2,y39K3,y39K4,y39K5,y39K6,y39K7,y39K8,y39K9,y39K10,y39K11,y39K12,y39K13,y39K14)*IMF(m), 140, 270)
+    return E39K_pisne[0]
+
+
+
+def E40Ca_pisne(meta):
+    E40Ca_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y40Ca1,y40Ca2,y40Ca3,y40Ca4,y40Ca5,y40Ca6,y40Ca7,y40Ca8,y40Ca9,y40Ca10,y40Ca11,y40Ca12,y40Ca13,y40Ca14)*IMF(m), 140, 270)
+    return E40Ca_pisne[0]
+
+
+
+def E45Sc_pisne(meta):
+    E45Sc_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y45Sc1,y45Sc2,y45Sc3,y45Sc4,y45Sc5,y45Sc6,y45Sc7,y45Sc8,y45Sc9,y45Sc10,y45Sc11,y45Sc12,y45Sc13,y45Sc14)*IMF(m), 140, 270)
+    return E45Sc_pisne[0]
+
+
+
+def E48Ti_pisne(meta):
+    E48Ti_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y48Ti1,y48Ti2,y48Ti3,y48Ti4,y48Ti5,y48Ti6,y48Ti7,y48Ti8,y48Ti9,y48Ti10,y48Ti11,y48Ti12,y48Ti13,y48Ti14)*IMF(m), 140, 270)
+    return E48Ti_pisne[0]
+
+
+
+def E51V_pisne(meta):
+    E51V_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y51V1,y51V2,y51V3,y51V4,y51V5,y51V6,y51V7,y51V8,y51V9,y51V10,y51V11,y51V12,y51V13,y51V14)*IMF(m), 140, 270)
+    return E51V_pisne[0]
+
+
+
+def E52Cr_pisne(meta):
+    E52Cr_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y52Cr1,y52Cr2,y52Cr3,y52Cr4,y52Cr5,y52Cr6,y52Cr7,y52Cr8,y52Cr9,y52Cr10,y52Cr11,y52Cr12,y52Cr13,y52Cr14)*IMF(m), 140, 270)
+    return E52Cr_pisne[0]
+
+
+
+def E55Mn_pisne(meta):
+    E55Mn_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y55Mn1,y55Mn2,y55Mn3,y55Mn4,y55Mn5,y55Mn6,y55Mn7,y55Mn8,y55Mn9,y55Mn10,y55Mn11,y55Mn12,y55Mn13,y55Mn14)*IMF(m), 140, 270)
+    return E55Mn_pisne[0]
+
+
+
+def E56Fe_pisne(meta):
+    E56Fe_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y56Fe1,y56Fe2,y56Fe3,y56Fe4,y56Fe5,y56Fe6,y56Fe7,y56Fe8,y56Fe9,y56Fe10,y56Fe11,y56Fe12,y56Fe13,y56Fe14)*IMF(m), 140, 270)
+    return E56Fe_pisne[0]
+
+
+
+def E59Co_pisne(meta):
+    E59Co_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y59Co1,y59Co2,y59Co3,y59Co4,y59Co5,y59Co6,y59Co7,y59Co8,y59Co9,y59Co10,y59Co11,y59Co12,y59Co13,y59Co14)*IMF(m), 140, 270)
+    return E59Co_pisne[0]
+
+
+
+def E58Ni_pisne(meta):
+    E58Ni_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y58Ni1,y58Ni2,y58Ni3,y58Ni4,y58Ni5,y58Ni6,y58Ni7,y58Ni8,y58Ni9,y58Ni10,y58Ni11,y58Ni12,y58Ni13,y58Ni14)*IMF(m), 140, 270)
+    return E58Ni_pisne[0]
+
+
+
+def E63Cu_pisne(meta):
+    E63Cu_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y63Cu1,y63Cu2,y63Cu3,y63Cu4,y63Cu5,y63Cu6,y63Cu7,y63Cu8,y63Cu9,y63Cu10,y63Cu11,y63Cu12,y63Cu13,y63Cu14)*IMF(m), 140, 270)
+    return E63Cu_pisne[0]
+
+
+
+def E64Zn_pisne(meta):
+    E64Zn_pisne = integrate.quad(lambda m: Y_pisne(m,meta,y64Zn1,y64Zn2,y64Zn3,y64Zn4,y64Zn5,y64Zn6,y64Zn7,y64Zn8,y64Zn9,y64Zn10,y64Zn11,y64Zn12,y64Zn13,y64Zn14)*IMF(m), 140, 270)
+    return E64Zn_pisne[0]
+
+
+

@@ -1,0 +1,3 @@
+def Ehe4_cvms(meta):
+    E4He_cvms = integrate.quad(lambda m: Y_cvms(m,meta,y4He1,y4He2)*IMF(m), 266, 1250)
+    return E4He_cvms[0]
